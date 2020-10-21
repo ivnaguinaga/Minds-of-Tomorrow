@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    background-position: top;
+}
+
+.header h1 {
+    font-size: 90px;
+}
+
+.two-column {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.two-column h1 {
+    font-size: 80px
+}
+
+.two-column h2 {
+    font-size: 50px
+}
+
+.two-column img {
+    width: 100%;
+}
+
+#color_raro {
+    background-color: #28ECA5;
+}
