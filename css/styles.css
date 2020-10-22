@@ -27,11 +27,11 @@ body {
 }
 
 .two-column h1 {
-    font-size: 80px
+    font-size: 6vw;
 }
 
 .two-column h2 {
-    font-size: 50px
+    font-size: 3vw;
 }
 
 .two-column img {
@@ -40,4 +40,20 @@ body {
 
 #color_raro {
     background-color: #28ECA5;
+}
+
+.one-column {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.one-column h1 {
+    font-size: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .four-column {
+        width: 50px;
+    }
 }
